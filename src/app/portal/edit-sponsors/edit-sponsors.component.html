@@ -1,1 +1,19 @@
-<p>Manage sponsors page works!</p>
+<table>
+    <thead>
+      <th>Name</th>
+      <th>Link</th>
+      <th>Logo</th>
+      <th>Tier</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let sponsor of sponsors">
+            <td>{{sponsor.sponsorName}}</td>
+            <td>{{sponsor.sponsorLink}}</td>
+            <td>{{sponsor.sponsorLogo}}</td>
+            <td>{{sponsor.sponsorTier}}</td>
+            <td>
+                <button (click)="delete(sponsors.id)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

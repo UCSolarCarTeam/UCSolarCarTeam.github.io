@@ -31,13 +31,13 @@
     "google": "^0.6.0",
     "maps": "^0.3.3",
     "ngx-markdown": "^11.0.1",
-    "rxjs": "~6.5.3",
+    "rxjs": "^6.5.5",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
-    "@angular/cli": "~9.1.4",
+    "@angular/cli": "^12.1.1",
     "@angular/compiler-cli": "~9.1.4",
     "@angular/language-service": "~9.1.4",
     "@types/jasmine": "~3.3.8",

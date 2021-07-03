@@ -9,6 +9,9 @@ import { EditTeamComponent } from './edit-team/edit-team.component';
 import { EditSponsorsComponent } from './edit-sponsors/edit-sponsors.component';
 import { EditNewsComponent } from './edit-news/edit-news.component';
 
+import { environment } from 'src/environments/environment';
+import { SponsorsService } from './services/sponsors.service';
+
 @NgModule({
   declarations: [
     PortalComponent,
@@ -22,7 +25,9 @@ import { EditNewsComponent } from './edit-news/edit-news.component';
     CommonModule,
     PortalRoutingModule,
   ],
-  providers: [],
+  providers: [
+    SponsorsService,
+  ],
   bootstrap: [PortalComponent]
 })
 export class PortalModule { }
